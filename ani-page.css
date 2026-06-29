@@ -1,0 +1,28 @@
+
+body{
+    background-color: rgb(203, 185, 236);
+}
+.box-grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: auto 1r auto;
+    grid-template-areas:
+    "b b b"
+    ;
+    gap: 16px;
+    padding: 16px;
+}
+
+.box{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(49, 53, 83);
+    border-radius: 10px
+}
+
+.pic{
+    height: 350px;
+    width: 250px;
+    margin: 23px;
+}
+
